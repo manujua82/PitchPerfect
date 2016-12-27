@@ -29,16 +29,14 @@
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gce-5Q-CNx"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7o1-xa-TeQ">
-                                <rect key="frame" x="129" y="374" width="116" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7o1-xa-TeQ">
+                                <rect key="frame" x="133.5" y="356" width="107" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xah-48-vZ2">
-                                <rect key="frame" x="129" y="438" width="121" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xah-48-vZ2">
+                                <rect key="frame" x="134" y="384.5" width="106" height="30"/>
                                 <state key="normal" title="Stop Recording"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2zi-Ew-PzR"/>
@@ -48,12 +46,13 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="bNS-oC-Y6r" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E4y-pR-LHD"/>
+                            <constraint firstItem="7o1-xa-TeQ" firstAttribute="top" secondItem="bNS-oC-Y6r" secondAttribute="bottom" constant="8" id="E6N-a4-Q8Y"/>
                             <constraint firstItem="bNS-oC-Y6r" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="QyH-N1-cRx"/>
+                            <constraint firstItem="7o1-xa-TeQ" firstAttribute="centerX" secondItem="bNS-oC-Y6r" secondAttribute="centerX" id="cwO-rh-jML"/>
+                            <constraint firstItem="Xah-48-vZ2" firstAttribute="centerX" secondItem="7o1-xa-TeQ" secondAttribute="centerX" id="nCk-P1-Fpv"/>
+                            <constraint firstItem="Xah-48-vZ2" firstAttribute="top" secondItem="7o1-xa-TeQ" secondAttribute="bottom" constant="8" id="wwA-U6-Z7i"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="recordingLabel" destination="7o1-xa-TeQ" id="P4r-5i-0Nf"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
