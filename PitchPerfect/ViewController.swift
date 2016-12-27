@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  PitchPerfect
 //
-//  Created by Kevin Bilberry on 12/27/16.
+//  Created by Juan Salcedo on 12/27/16.
 //  Copyright © 2016 Juan Salcedo. All rights reserved.
 //
 
