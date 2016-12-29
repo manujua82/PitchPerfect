@@ -23,20 +23,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNS-oC-Y6r">
-                                <rect key="frame" x="129.66666666666669" y="290.66666666666669" width="155.00000000000006" height="155"/>
+                                <rect key="frame" x="157.33333333333331" y="318.33333333333331" width="99.999999999999943" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="bmu-8N-M7X"/>
+                                    <constraint firstAttribute="height" constant="100" id="k4r-rt-UFM"/>
+                                </constraints>
                                 <state key="normal" image="Record"/>
                                 <connections>
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gce-5Q-CNx"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7o1-xa-TeQ">
-                                <rect key="frame" x="153" y="453.66666666666674" width="107" height="20.333333333333314"/>
+                                <rect key="frame" x="153" y="422.33333333333331" width="107" height="20.333333333333371"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xah-48-vZ2">
-                                <rect key="frame" x="175" y="482" width="64" height="64"/>
+                                <rect key="frame" x="175" y="446.66666666666669" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="nSA-Jq-m8p"/>
                                     <constraint firstAttribute="height" constant="64" id="xjZ-mB-gv2"/>
@@ -50,11 +54,11 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="bNS-oC-Y6r" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E4y-pR-LHD"/>
-                            <constraint firstItem="7o1-xa-TeQ" firstAttribute="top" secondItem="bNS-oC-Y6r" secondAttribute="bottom" constant="8" id="E6N-a4-Q8Y"/>
+                            <constraint firstItem="7o1-xa-TeQ" firstAttribute="top" secondItem="bNS-oC-Y6r" secondAttribute="bottom" constant="4" id="E6N-a4-Q8Y"/>
                             <constraint firstItem="bNS-oC-Y6r" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="QyH-N1-cRx"/>
                             <constraint firstItem="7o1-xa-TeQ" firstAttribute="centerX" secondItem="bNS-oC-Y6r" secondAttribute="centerX" id="cwO-rh-jML"/>
                             <constraint firstItem="Xah-48-vZ2" firstAttribute="centerX" secondItem="7o1-xa-TeQ" secondAttribute="centerX" id="nCk-P1-Fpv"/>
-                            <constraint firstItem="Xah-48-vZ2" firstAttribute="top" secondItem="7o1-xa-TeQ" secondAttribute="bottom" constant="8" id="wwA-U6-Z7i"/>
+                            <constraint firstItem="Xah-48-vZ2" firstAttribute="top" secondItem="7o1-xa-TeQ" secondAttribute="bottom" constant="4" id="wwA-U6-Z7i"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="2TK-Ip-yRe"/>
