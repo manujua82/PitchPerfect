@@ -30,8 +30,8 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     
     func setUIState(isRecording: Bool, recordingText: String){
         recordingLabel.text = recordingText
-        recordButton.isEnabled = isRecording ? false : true
-        stopRecordingButton.isEnabled = isRecording ? true : false
+        recordButton.isEnabled = !isRecording
+        stopRecordingButton.isEnabled = isRecording
     }
 
     @IBAction func recordAudio(_ sender: Any) {
