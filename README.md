@@ -8,7 +8,7 @@ The app allows user to record a conversation, and then makes the voices sound li
 
 - Finally, the user can apply six different effects to the audio recorded.
 
-![Alt text](/ScreenShot/PlaySounds.png?raw=true "")
+![Alt text](/ScreenShot/PlaySounds.jpg?raw=true "")
 
 ## License
 The contents of this repository are covered under the [MIT License](LICENSE).
