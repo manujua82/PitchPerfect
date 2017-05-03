@@ -1,14 +1,18 @@
 # PitchPerfect
 The app allows user to record a conversation, and then makes the voices sound like a Chipmunk or Darth Vader.
 
+## Technologies Used
+Swift  Outlets & Actions   AVFoundation
+
+## Install
+
+
 ## Usage 
 - First, the user records his voice.
-
-![Alt text](/ScreenShot/RecordSounds.png?raw=true "")                        
-
 - Finally, the user can apply six different effects to the audio recorded.
 
-![Alt text](/ScreenShot/PlaySounds.jpg?raw=true "")
+## Screenshot 
+![Alt text](/ScreenShot/PlaySounds.jpg?raw=true "") ![Alt text](/ScreenShot/RecordSounds.png?raw=true "") 
 
 ## License
 The contents of this repository are covered under the [MIT License](LICENSE).
